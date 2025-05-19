@@ -44,10 +44,19 @@
         "currency_iso": "CAD"
       },
       "avso_item_name": "Subwoofer",
+      "msrp_discount_percent": "-14.08",
       "discount": "0.0",
       "custom": false,
       "product_id": 1251085,
       "custom_product_id": null,
+      "selected_purchasing_vendor": {
+        "id": 169,
+        "name": "Chief"
+      },
+      "purchasing_source": {
+        "id": 441,
+        "company_name": "Legrand AV"
+      },
       "quantity": "20.0",
       "quantity_per_room": "10.0",
       "quantity_per_bundle": null,
@@ -67,6 +76,10 @@
       },
       "phase": null,
       "option": null,
+      "labor_preset": {
+        "id": 1,
+        "name": "Labor Preset Name"
+      },
       "labor": [
         {
           "category": "install",
@@ -290,7 +303,7 @@ An item's room, system, and tag id cannot be updated if the item belongs to a bu
 
 ### HTTP Request
 
-`PUT <%= api_url('/projects/<PROJECT_ID>/items/<ID>') %>`
+`PATCH <%= api_url('/projects/<PROJECT_ID>/items/<ID>') %>`
 
 ### URL Parameters
 

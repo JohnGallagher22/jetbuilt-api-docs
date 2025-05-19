@@ -11,6 +11,8 @@ includes:
   - customers/company
   - customers/clients
   - customers/clients/contacts
+  - customers/labor_presets
+  - customers/labor_programs
   - customers/market_segments
   - customers/phases
   - customers/products
@@ -21,6 +23,7 @@ includes:
   - customers/projects/systems
   - customers/projects/tags
   - customers/projects/discussions
+  - customers/projects/proposals
   - customers/projects/purchasing
   - customers/projects/service_packages
   - customers/purchasing/sources
